@@ -3,12 +3,12 @@
 # This one is just for my local OSX machine
 
 # install homebrew and other packages
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+# ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 # brew install coreutils
 # brew install wget
-brew install grep --default-names
+brew install grep --default-names # doesn't work
 brew install gzip
-brew install screen
+brew install screen # doesn't work
 brew install node
 brew install emacs --use-git-head --HEAD
 
@@ -50,6 +50,7 @@ fi
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
+# TODO: fix the -b on these links to make dotfiles work
 git clone https://github.com/johnelliott/dotfiles.git
 ln -sb dotfiles/.screenrc .
 ln -sb dotfiles/.bash_profile .

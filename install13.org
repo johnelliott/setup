@@ -6,14 +6,14 @@
 - [ ] grunt
 - [ ] jshint
 - [ ] emacs
-- [ ] node
+- [X] node
 - [ ] npm
 - [ ] git
 - [ ] nvm
 
-- [ ] .terminal config file
-- [ ] DROPBOX
-- [ ] chrome
+- [X] .terminal config file
+- [X] DROPBOX
+- [X] chrome
 - [ ] sublime text 3
 	- [ ] GIT GITTER
 	- [ ] JSHINT
@@ -21,15 +21,13 @@
 	- [ ] ST package manager
 	- [ ] orgmode
 
-- [ ] show dashboard as a space
+- [X] show dashboard as a space
 - [ ] desktop background
 - [ ] show file extensions
 - [ ] reduce transparency
 - [ ] reduce motion
-- [ ] dock position
-- [ ] dock look
-- [ ] dock hiding
+- [X] dock hiding
 - [ ] spaces behavior
-- [ ] desktop sorting arrangement
-- [ ] keyboard modifier keys: caps is control
+- [X] desktop sorting arrangement
+- [X] keyboard modifier keys: caps is control
 - [ ] kill safari bookmarks
