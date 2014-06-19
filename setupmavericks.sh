@@ -3,7 +3,7 @@
 # This one is just for my local OSX machine
 
 # install homebrew and other packages
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+# ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 # brew install coreutils
 # brew install wget
 brew install grep --default-names
