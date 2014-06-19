@@ -4,8 +4,8 @@
 
 # install homebrew and other packages
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-brew install coreutils
-brew install wget
+# brew install coreutils
+# brew install wget
 brew install grep --default-names
 brew install gzip
 brew install screen

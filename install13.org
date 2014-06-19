@@ -1,0 +1,35 @@
+- [X] xcode
+- [X] Xcode CL tools
+- [X] GNU tools
+- [X] homebrew
+- [ ] setup.sh (this is this repo)
+- [ ] grunt
+- [ ] jshint
+- [ ] emacs
+- [ ] node
+- [ ] npm
+- [ ] git
+- [ ] nvm
+
+- [ ] .terminal config file
+- [ ] DROPBOX
+- [ ] chrome
+- [ ] sublime text 3
+	- [ ] GIT GITTER
+	- [ ] JSHINT
+	- [ ] BUILD system
+	- [ ] ST package manager
+	- [ ] orgmode
+
+- [ ] show dashboard as a space
+- [ ] desktop background
+- [ ] show file extensions
+- [ ] reduce transparency
+- [ ] reduce motion
+- [ ] dock position
+- [ ] dock look
+- [ ] dock hiding
+- [ ] spaces behavior
+- [ ] desktop sorting arrangement
+- [ ] keyboard modifier keys: caps is control
+- [ ] kill safari bookmarks
