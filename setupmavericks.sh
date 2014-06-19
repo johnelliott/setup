@@ -3,9 +3,9 @@
 # This one is just for my local OSX machine
 
 # install homebrew and other packages
-# ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-# brew install coreutils
-# brew install wget
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew install coreutils
+brew install wget
 brew install grep --default-names # doesn't work
 brew install gzip
 brew install screen # doesn't work
@@ -52,8 +52,8 @@ if [ -d .emacs.d/ ]; then
 fi
 # TODO: fix the -b on these links to make dotfiles work
 git clone https://github.com/johnelliott/dotfiles.git
-ln -sb dotfiles/.screenrc .
-ln -sb dotfiles/.bash_profile .
-ln -sb dotfiles/.bashrc .
-ln -sb dotfiles/.bashrc_custom .
+ln -s dotfiles/.screenrc .
+ln -s dotfiles/.bash_profile .
+ln -s dotfiles/.bashrc .
+ln -s dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
