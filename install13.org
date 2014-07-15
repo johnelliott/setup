@@ -31,3 +31,5 @@
 - [X] desktop sorting arrangement
 - [X] keyboard modifier keys: caps is control
 - [ ] kill safari bookmarks
+
+uncomment defaults write com.apple.dashboard mcx-disabled -boolean YES && killall Dock

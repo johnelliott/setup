@@ -2,13 +2,16 @@
 # Simple setup.sh for configuring OSX based off the ogiginal for configuring Ubuntu 12.04 LTS EC2 instance for headless setup. 
 # This one is just for my local OSX machine
 
+# Install Xcode
+# Install developer command-line tools
+
 # install homebrew and other packages
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 brew install coreutils
 brew install wget
-brew install grep --default-names # doesn't work
+# brew install grep --default-names # doesn't work
 brew install gzip
-brew install screen # doesn't work
+# brew install screen # doesn't work
 brew install node
 brew install emacs --use-git-head --HEAD
 
@@ -22,9 +25,22 @@ brew install emacs --use-git-head --HEAD
 # Install jshint to allow checking of JS code within emacs                                                                                                                                                                                              
 # http://jshint.com/                                                                                                                                                                                                                                    
 npm install -g jshint
+
 # Install Grunt for automated node builds                                                                                                                                                                                                               
 # http://gruntjs.com/getting-started for details                                                                                                                                                                                                        
 npm install -g grunt-cli
+npm install -g grunt-init
+
+# Install Bower for front-end package management                                                                                                                                                                                                               
+# http://http://bower.io/ for details                                                                                                                                                                                                        
+npm install -g bower
+
+# Install yeoman for project building
+npm install -g yo
+
+# # Install Heroku toolbelt                                                                                                                                                                                                                               
+# # https://toolbelt.heroku.com/debian                                                                                                                                                                                                                    
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 # # Load nvm and install latest production node                                                                                                                                                                                                           
 # source $HOME/.nvm/nvm.sh
@@ -35,10 +51,9 @@ npm install -g grunt-cli
 # # See: http://nodejs.org/api/repl.html#repl_repl                                                                                                                                                                                                        
 # sudo apt-get install -y rlwrap
 
-
-# # Install Heroku toolbelt                                                                                                                                                                                                                               
-# # https://toolbelt.heroku.com/debian                                                                                                                                                                                                                    
-# wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+# # Change OSX preferences
+# Disable dashboard
+defaults write com.apple.dashboard mcx-disabled -boolean YES && killall Dock
 
 
 
